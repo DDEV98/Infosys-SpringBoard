@@ -1,0 +1,24 @@
+read me :)
+
+how to install nltk( natural language toolkit) for learn NLP(Natural Language Processing) and use 
+in Jupyter notebook custom Kernel
+
+in cmd -  pip install --user -U nltk
+	- pip install --user -U numpy
+check 	- pip show nltk
+popular	- python -m nltk.downloader popular
+
+
+go own folder where u are create or you want to run jupyter notebook create the file nltk
+through the open or change directory after perform below commands in CLI(window command line Interface)
+
+create virtual memory - 
+in cmd	-	python -m venv my_venv
+then		.\my_venv\Scripts\activate
+install	-	pip install nltk
+	-	python -m ipykernel install --user --name NLTK_KERNEL
+	-	jupyter notebook
+	-	(change kernel name)
+if tokenization install that
+type in jupter-	nltk.download('punkt_tab')
+						.....enjoy
